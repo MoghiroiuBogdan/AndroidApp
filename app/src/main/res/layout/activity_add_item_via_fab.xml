@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:orientation="vertical"
+    tools:context=".Add_item_via_fab">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txtTitle"
+        android:text="Add a new Travel"/>
+
+    <EditText
+        android:id="@+id/edit_trip_name"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter trip name: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <EditText
+        android:id="@+id/edit_destiation"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter destiantion: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter price: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <Button
+        android:id="@+id/button_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="add"
+        android:layout_gravity="end"/>
+
+
+</LinearLayout>

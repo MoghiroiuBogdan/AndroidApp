@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">testNou</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_name">Bogdan Moghiroiu</string>
+    <string name="user_mail">bogdan.moghiroiu@gmail.com</string>
+    <string name="About_Us">About Us</string>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_share">Share</string>
+
+    <string name="head_1"> TRIP NAME: The Royal Route
+                      DESTIONATION: Monaco, Casino Monte Carlo
+                      PRICE: 5000$</string>
+    <string name="head_2">TRIP NAME: Trip To Rome..
+                      DESTIONATION: Italy, Rome
+                      PRICE: 1240$</string>
+    <string name="head_3">TRIP NAME: Tokyo Dream
+                      DESTIONATION: Tokyo
+                      PRICE: 2200$</string>
+    <string name="head_4">TRIP NAME: What Happens In Vegas, Stays In Vegas
+                      DESTIONATION: America, Las Vegas
+                      PRICE: 6500$</string>
+    <string name="head_5">TRIP NAME: A Catholic traveler at Sagrada Familia
+                      DESTIONATION: Spain, Barcelona
+                      PRICE: 2000$</string>
+    <string name="head_6">TRIP NAME: The Seismic Island
+                      DESTIONATION: Greece, San Torini
+                      PRICE: 12000$</string>
+    <string name="head_7">TRIP NAME: Trip To Paradise..
+                      DESTIONATION: Maldive
+                      PRICE: 9000$</string>
+    <string name="head_8">TRIP NAME: Goddess Mother of the World
+                      DESTIONATION: Maldive
+                      PRICE: 9000$</string>
+    <string name="head_9">TRIP NAME: The Beauty Of Romania
+                      DESTIONATION: Sinaia, "Castelul Bran"
+                      PRICE: 3400$</string>
+    <string name="head_10">Homemaker, economist: Candidates from all walks of life in Bengal assembly</string>
+    <string name="insert_a_word">insert a trip name</string>
+    <string name="add_word">click to add</string>
+</resources>

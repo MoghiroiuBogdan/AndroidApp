@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".room.AddWordActivity">
+
+    <EditText
+        android:id="@+id/editTextWord"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter trip name: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter destiantion: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="390dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="11dp"
+        android:hint="enter price: "
+        android:inputType="text"
+        android:textSize="23dp"
+        android:padding="11dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:text="Click to Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWord" />
+</LinearLayout>
